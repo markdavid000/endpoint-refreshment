@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: "rubik", sans-serif;
+  font-family: 'rubik', sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -78,7 +78,7 @@ body {
   color: #333;
 }
 
-.icon-mobile-nav[name="close-outline"] {
+.icon-mobile-nav[name='close-outline'] {
   display: none;
 }
 
@@ -203,7 +203,7 @@ body {
 }
 
 .step-img-box::before {
-  content: "";
+  content: '';
   display: block;
   background-color: #fdf2e9;
   width: 60%;
@@ -218,7 +218,7 @@ body {
 }
 
 .step-img-box::after {
-  content: "";
+  content: '';
   display: block;
   background-color: #fae5d3;
   width: 45%;
@@ -392,7 +392,7 @@ body {
 }
 
 .pricing-plan--complete::after {
-  content: "Best value";
+  content: 'Best value';
   position: absolute;
   top: 6%;
   right: -17%;
@@ -509,7 +509,7 @@ body {
       rgba(235, 153, 76, 0.35),
       rgba(230, 125, 34, 0.35)
     ),
-    url("../img/eating.jpg");
+    url('../img/eating.jpg');
   background-size: cover;
   background-position: center;
 }
